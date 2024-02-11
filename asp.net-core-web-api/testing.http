@@ -1,0 +1,28 @@
+@URL = http://localhost:5080
+
+GET {{URL}}
+
+###
+
+POST {{URL}}
+Content-Type: application/json
+
+{
+  "name": "Box cutter",
+  "price": 4.49
+}
+
+###
+
+PUT {{URL}}/1001
+Content-Type: application/json
+
+{
+  "id": 1001,
+  "name": "Something else",
+  "price": 50
+}
+
+###
+
+DELETE {{URL}}/1000

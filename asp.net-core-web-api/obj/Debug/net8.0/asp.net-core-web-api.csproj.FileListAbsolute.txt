@@ -48,3 +48,4 @@ C:\Users\Sebastian\vs-code-workspace\MyProjects\ASP.NETCoreWebApi\asp.net-core-w
 C:\Users\Sebastian\vs-code-workspace\MyProjects\ASP.NETCoreWebApi\asp.net-core-web-api\obj\Debug\net8.0\asp.net-core-web-api.pdb
 C:\Users\Sebastian\vs-code-workspace\MyProjects\ASP.NETCoreWebApi\asp.net-core-web-api\obj\Debug\net8.0\asp.net-core-web-api.genruntimeconfig.cache
 C:\Users\Sebastian\vs-code-workspace\MyProjects\ASP.NETCoreWebApi\asp.net-core-web-api\obj\Debug\net8.0\ref\asp.net-core-web-api.dll
+C:\Users\Sebastian\vs-code-workspace\MyProjects\ASP.NETCoreWebApi\asp.net-core-web-api\obj\Debug\net8.0\asp.net-core-web-api.sourcelink.json

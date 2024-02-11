@@ -6,11 +6,18 @@ List<Product> products = [
 ];
 
 WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddCors();
+
 WebApplication app = builder.Build();
 
+app.UseCors(builder => builder
+  .AllowAnyHeader()
+  .AllowAnyMethod()
+  .AllowAnyOrigin()
+);
 app.MapGet("/", () =>
 {
-  printStore();
   return products;
 });
 app.MapPost("/", (PartialProduct data) =>
@@ -93,7 +100,7 @@ int nextId()
 
 void sortProducts()
 {
-  products.Sort((p1, p2) => p2.Id - p1.Id);
+  products.Sort((p1, p2) => p1.Id - p2.Id);
 }
 
 namespace Records
